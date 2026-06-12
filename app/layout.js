@@ -7,7 +7,10 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Manish Suriyal",
   description: "Full Stack Developer Portfolio",
-};
+  icons : {
+    icon:"/favicon.svg"
+  }
+ };
 
 export default function RootLayout({ children }) {
   return (
