@@ -106,13 +106,7 @@ const Navbar = ({ dark, setDark }) => {
               <span>{item.name}</span>
             </Link>
           ))}
-          <a
-            href="/manish_suriyal_cv.pdf"
-            download="Manish_Suriyal_Resume.pdf"
-            className='flex items-center gap-2 px-4 py-2 rounded-xl hover:bg-gray-600 transition-all text-sm font-medium text-gray-700 dark:text-gray-200'
-          >
-            <Download size={16} />
-          </a>
+         
         </nav>
       </header>
 
