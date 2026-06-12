@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { BookOpen, CalendarCheck, FolderKanban, LayoutDashboard, Mail, Menu, Moon, Search, Sun, X } from "lucide-react";
+import { BookOpen, CalendarCheck, Download, FolderKanban, LayoutDashboard, Mail, Menu, Moon, Search, Sun, X } from "lucide-react";
 import Sidebar from "./Sidebar";
 import Searchpage from "./Searchpage";
 import Link from "next/link";
@@ -12,11 +12,10 @@ const Navbar = ({ dark, setDark }) => {
   const [search, setSearch] = useState(true);
 
   const navLinks = [
-    { name: "Overview",    icon: <LayoutDashboard size={18} />, href: "/" },
-    { name: "Projects",    icon: <FolderKanban size={18} />,    href: "/projects" },
-    { name: "Blogs",       icon: <BookOpen size={18} />,        href: "/blogs" },
-    { name: "Consistency", icon: <CalendarCheck size={18} />,   href: "/consistency" },
-    { name: "Contact",     icon: <Mail size={18} />,            href: "/contact" },
+    { name: "Overview", icon: <LayoutDashboard size={18} />, href: "/" },
+    { name: "Projects", icon: <FolderKanban size={18} />, href: "/projects" },
+    { name: "Blogs", icon: <BookOpen size={18} />, href: "/blogs" },
+    { name: "Contact", icon: <Mail size={18} />, href: "/contact" },
   ];
 
   return (
@@ -107,6 +106,13 @@ const Navbar = ({ dark, setDark }) => {
               <span>{item.name}</span>
             </Link>
           ))}
+          <a
+            href="/manish_suriyal_cv.pdf"
+            download="Manish_Suriyal_Resume.pdf"
+            className='flex items-center gap-2 px-4 py-2 rounded-xl hover:bg-gray-600 transition-all text-sm font-medium text-gray-700 dark:text-gray-200'
+          >
+            <Download size={16} />
+          </a>
         </nav>
       </header>
 
