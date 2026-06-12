@@ -7,7 +7,7 @@ const projects = [
   {
     name: "Vingo - Food Delivery App",
     desc: "A full-stack food delivery app with real-time order tracking, cart management, and payment integration.",
-    href: "https://github.com/manishsuriyal/vingo",
+    href: "https://github.com/manish012321/vingo",
     visibility: "Public",
     stars: 12,
     forks: 3,
@@ -17,7 +17,7 @@ const projects = [
   {
     name: "SOP Generator",
     desc: "An AI-powered Statement of Purpose generator that helps students craft personalized SOPs for university applications.",
-    href: "https://github.com/manishsuriyal/sop-generator",
+    href: "https://github.com/manish012321/SOP-Generator",
     visibility: "Public",
     stars: 8,
     forks: 1,
@@ -27,7 +27,7 @@ const projects = [
   {
     name: "MacOS Portfolio",
     desc: "A macOS-inspired developer portfolio with draggable windows, dock navigation, and a terminal.",
-    href: "https://github.com/manishsuriyal/macos-portfolio",
+    href: "https://github.com/manish012321/macos-portfolio",
     visibility: "Public",
     stars: 24,
     forks: 5,
