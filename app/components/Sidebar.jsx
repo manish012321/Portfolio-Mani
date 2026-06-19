@@ -10,8 +10,7 @@ const Sidebar = ({ menu, setMenu }) => {
     { name: "Overview",    icon: <LayoutDashboard size={18} />, href: "/" },
     { name: "Projects",    icon: <FolderKanban size={18} />,    href: "/projects" },
     { name: "Blogs",       icon: <BookOpen size={18} />,        href: "/blogs" },
-    { name: "Consistency", icon: <CalendarCheck size={18} />,   href: "/consistency" },
-    { name: "Contact",     icon: <Mail size={18} />,            href: "/contact" },
+      { name: "Contact",     icon: <Mail size={18} />,            href: "/contact" },
   ];
 
   return (
