@@ -27,6 +27,7 @@ const page = () => {
       { name: "Git", icon: "/git-svgrepo-com.svg" },
       { name: "GitHub", icon: "/github-svgrepo-com.svg" },
       { name: "Vercel", icon: "/vercel-svgrepo-com.svg" },
+      { name: "Figma", icon: "/figma-svgrepo-com.svg" },
     ],
     "Cloud & Integrations": [
       { name: "AWS", icon: "/aws-svgrepo-com.svg" },
