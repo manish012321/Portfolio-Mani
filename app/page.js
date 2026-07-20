@@ -12,22 +12,24 @@ const page = () => {
       { name: "React", icon: "/reactjs-svgrepo-com.svg" },
       { name: "Next.js", icon: "/next-js-svgrepo-com.svg" },
       { name: "JavaScript", icon: "/javascript-svgrepo-com.svg" },
+      { name: "Typescript", icon: "/typescript-icon-svgrepo-com.svg" },
       { name: "Tailwind", icon: "/tailwind-css-svgrepo-com.svg" },
       { name: "Redux", icon: "/redux-svgrepo-com.svg" },
-      { name: "HTML", icon: "/html-5-svgrepo-com.svg" },
-      { name: "Vite", icon: "/vitejs-svgrepo-com.svg" },
+           
     ],
     Backend: [
       { name: "Express", icon: "/express-svgrepo-com.svg" },
       { name: "MongoDB", icon: "/mongo-svgrepo-com.svg" },
       { name: "Firebase", icon: "/firebase-svgrepo-com.svg" },
-      { name: "Docker", icon: "/docker-svgrepo-com.svg" },
+      { name: "PostgresSql", icon: "/postgresql-svgrepo-com.svg" },
     ],
     "Tools & DevOps": [
       { name: "Git", icon: "/git-svgrepo-com.svg" },
       { name: "GitHub", icon: "/github-svgrepo-com.svg" },
       { name: "Vercel", icon: "/vercel-svgrepo-com.svg" },
       { name: "Figma", icon: "/figma-svgrepo-com.svg" },
+      { name: "Docker", icon: "/docker-svgrepo-com.svg" },
+      { name: "Postman", icon: "/postman-svgrepo-com.svg" },
     ],
     "Cloud & Integrations": [
       { name: "AWS", icon: "/aws-svgrepo-com.svg" },
