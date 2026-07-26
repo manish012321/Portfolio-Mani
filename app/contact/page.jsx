@@ -22,7 +22,7 @@ const contacts = [
     icon: <Mail size={16} />,
     label: "GitHub",
     value: "github.com/manishsuriyal",
-    href: "https://github.com/manishsuriyal",
+    href: "https://github.com/manish012321",
   },
   {
     icon: <img src="/linkedin.png" alt="linkedin" className="w-4 h-4 object-contain" />,
