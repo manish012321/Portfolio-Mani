@@ -30,6 +30,8 @@ const page = () => {
       { name: "Figma", icon: "/figma-svgrepo-com.svg" },
       { name: "Docker", icon: "/docker-svgrepo-com.svg" },
       { name: "Postman", icon: "/postman-svgrepo-com.svg" },
+      { name: "Antigravity", icon: "/antigravity-color.svg" },
+      { name: "Cursor", icon: "/cursor.svg" },
     ],
     "Cloud & Integrations": [
       { name: "AWS", icon: "/aws-svgrepo-com.svg" },
