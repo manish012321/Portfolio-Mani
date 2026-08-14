@@ -4,6 +4,27 @@ import { ExternalLink, Star, GitFork, Lock, Globe } from 'lucide-react'
 import Link from 'next/link'
 
 const projects = [
+  
+  {
+    name: "SOP Generator",
+    desc: "An AI-powered Statement of Purpose generator that helps students craft personalized SOPs for university applications.",
+    href: "https://github.com/manish012321/SOP-Generator",
+    visibility: "Public",
+    stars: 8,
+    forks: 1,
+    tags: ["React", "OpenAI", "Tailwind"],
+    img: "/sop.png",
+  },
+  {
+    name: "Explain This Diff - Browser Extension",
+    desc: "Reviewing a pull request often means reading a wall of red/green diff lines before understanding what actually changed and why. This extension adds a one-click summary layer on top of GitHub's own diff view, so a reviewer gets the gist immediately and can dig into specifics only where needed.",
+    href: "https://github.com/manish012321/Explain-This-Diff",
+    visibility: "Public",
+    stars: 10,
+    forks: 3,
+    tags: ["Javascript", "AI", "Express"],
+    img: null,
+  },
   {
     name: "Vingo - Food Delivery App",
     desc: "A full-stack food delivery app with real-time order tracking, cart management, and payment integration.",
@@ -15,16 +36,6 @@ const projects = [
     img: "/vingo.jpeg",
   },
   {
-    name: "SOP Generator",
-    desc: "An AI-powered Statement of Purpose generator that helps students craft personalized SOPs for university applications.",
-    href: "https://github.com/manish012321/SOP-Generator",
-    visibility: "Public",
-    stars: 8,
-    forks: 1,
-    tags: ["React", "OpenAI", "Tailwind"],
-    img: null,
-  },
-  {
     name: "MacOS Portfolio",
     desc: "A macOS-inspired developer portfolio with draggable windows, dock navigation, and a terminal.",
     href: "https://github.com/manish012321/macos-portfolio",
@@ -32,7 +43,7 @@ const projects = [
     stars: 24,
     forks: 5,
     tags: ["Next.js", "Framer Motion", "Tailwind"],
-    img: null,
+    img: "/macos.png",
   },
 ]
 
